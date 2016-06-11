@@ -101,14 +101,14 @@
    `(show-paren-mismatch ((t (:foreground ,text-2 :underline (:color ,red :style line)))))
 
    ;; Dired
-   ;; `(dired-directory ((t (:foreground ,text :weight extrabold))))
-   ;; `(dired-header ((t (:foreground "white"  :background ,blue :weight bold))))
-   ;; `(dired-ignored ((t (:foreground ,text-3))))
-   ;; `(dired-flagged ((t (:foreground ,red :weight bold))))
-   ;; `(dired-marked ((t (:background ,blue :foreground "white" :weight normal))))
-   ;; `(dired-perm-write ((t (:foreground ,yellow :weight ultra-bold))))
-   ;; `(dired-symlink ((t (:foreground ,light-blue :weight normal))))
-   ;; `(dired-warning ((t (:inherit (font-lock-warning-face)))))
+   `(dired-directory ((t (:foreground ,text :weight extrabold))))
+   `(dired-header ((t (:foreground "white"  :background ,blue :weight bold))))
+   `(dired-ignored ((t (:foreground ,text-3))))
+   `(dired-flagged ((t (:foreground ,red :weight bold))))
+   `(dired-marked ((t (:background ,blue :foreground "white" :weight normal))))
+   `(dired-perm-write ((t (:foreground ,yellow :weight ultra-bold))))
+   `(dired-symlink ((t (:foreground ,light-blue :weight normal))))
+   `(dired-warning ((t (:inherit (font-lock-warning-face)))))
 
    ;; Lines
    ;;`(linum ((t (:foreground ,text-4  :weight light :height 0.9))))
